@@ -8,8 +8,8 @@ set number
 set relativenumber
 set mouse=a
 set noerrorbells
-set sw=2
-set expandtab
+set sw=4
+set tabstop=4
 set smartindent 
 set rnu
 set numberwidth=1
