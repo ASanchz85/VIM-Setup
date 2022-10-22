@@ -1,6 +1,6 @@
 # VIM-Setup
 
-[!] This way of setting up my vim is based on 4strodev youtube channel with minor modifications. 
+[!] This way of setting up my vim is based on 4strodev youtube channel with some minor modifications. 
     His channel has helped me a lot and I really recommend you to visit his channel and show your gratitude there.
 
 [+] HOW TO INSTALL IT?
@@ -19,13 +19,13 @@
 
 Take a close look at how the shortcuts are mapped in order to understand how to win efficency using vim.
     
-You can adapt it to your own way in order to feel more comfortable. Pay attention to *map variables
+You can adapt it to your own way for feeling more comfortable. Pay attention to *map variables
 
 [+] FIXING SOME ISSUES
 
 Regarding yank command (YY) in macOS you have to change -> set clipboard=unnamedplus to -> set clipboard=unnamed
 
-Also you can follow stackoverflow recommendation adding these lines to your .vimrc
+Also you can follow stackoverflow recommendation adding these lines to your .vimrc if you want to have an all road setup
 
     if system('uname -s') == "Darwin\n"
       "OSX
