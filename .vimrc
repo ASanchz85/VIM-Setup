@@ -65,7 +65,7 @@ Plug 'honza/vim-snippets'
 Plug 'sirver/ultisnips'
 Plug 'mattn/emmet-vim'
 Plug 'jiangmiao/auto-pairs'
-Plug 'neoclide/coc.vim', {'branch': 'release'}
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 
 
