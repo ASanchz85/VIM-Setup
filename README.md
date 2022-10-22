@@ -20,3 +20,17 @@
 Take a close look at how the shortcuts are mapped in order to understand how to win efficency using vim.
     
 You can adapt it to your own way in order to feel more comfortable. Pay attention to *map variables
+
+[+] FIXING SOME ISSUES
+
+Regarding yank command (YY) in macOS you have to change -> set clipboard=unnamedplus to -> set clipboard=unnamed
+
+Also you can follow stackoverflow recommendation adding these lines to your .vimrc
+
+    if system('uname -s') == "Darwin\n"
+      "OSX
+      set clipboard=unnamed 
+    else
+      "Linux
+      set clipboard=unnamedplus
+    endif
