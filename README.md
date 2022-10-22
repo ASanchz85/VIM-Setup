@@ -14,6 +14,8 @@
 7) Then -> :PlugInstall again to get the COC completion ready
 8) Visit -> https://github.com/neoclide/coc.nvim/wiki/Using-coc-extensions
 9) Select and install all the languages in which you are interested -> :CocInstall
+** What I use -> 
+    :CocInstall coc-prettier coc-emmet coc-html coc-python coc-phpls coc-sh coc-java coc-clangd coc-css coc-tsserver coc-json
     
 [+] KEYBOARD SHORTCUTS
 
