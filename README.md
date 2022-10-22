@@ -5,7 +5,7 @@
 
 [+] HOW TO INSTALL IT?
 
-    1) Visit https://github.com/junegunn/vim-plug 
+1) Visit https://github.com/junegunn/vim-plug 
     2) Follow the steps to install it
     3) Restart your vim
     4) Use -> :PlugInstall in order to download all the plugins included.
