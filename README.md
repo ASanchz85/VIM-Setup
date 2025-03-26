@@ -36,3 +36,5 @@ Also you can follow stackoverflow recommendation adding these lines to your .vim
       "Linux
       set clipboard=unnamedplus
     endif
+
+**Add a vim-plug section to your ~/.vimrc (or ~/.config/nvim/init.vim for Neovim)**
